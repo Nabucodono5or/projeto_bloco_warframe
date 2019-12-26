@@ -1,7 +1,7 @@
 import template from 'app.html';
 
-appComponent = {
-  template: template,
+let appComponent = {
+  template,
 }
 
 export default appComponent
