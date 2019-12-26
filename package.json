@@ -4,6 +4,8 @@
   "description": "projeto para entrega da disciplina sistemas otimizados",
   "main": "index.js",
   "scripts": {
+    "dev": "parcel index.html",
+    "clean": "rm -r dist/; rm -r .cache/",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
