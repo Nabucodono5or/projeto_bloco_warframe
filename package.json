@@ -18,5 +18,8 @@
   "homepage": "https://github.com/Nabucodono5or/projeto_bloco_warframe#readme",
   "dependencies": {
     "angular": "^1.7.9"
+  },
+  "devDependencies": {
+    "babel-plugin-transform-html-import-to-string": "0.0.1"
   }
 }
