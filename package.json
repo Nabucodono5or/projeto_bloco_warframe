@@ -19,7 +19,8 @@
   },
   "homepage": "https://github.com/Nabucodono5or/projeto_bloco_warframe#readme",
   "dependencies": {
-    "angular": "^1.7.9"
+    "angular": "^1.7.9",
+    "warframe-items": "^1.813.0"
   },
   "devDependencies": {
     "babel-core": "^6.26.3",
