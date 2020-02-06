@@ -1,8 +1,10 @@
-import angular from 'angular';
-import homeComponent from './home.component';
+import angular from "angular";
+import homeComponent from "./home.component";
+import homeFactory from "./home.service";
 
-let homeModule = angular.module('homeModule', [])
-    .component('home', homeComponent)
-    .name;
+let homeModule = angular
+  .module("homeModule", [])
+  .factory("homeService", homeFactory)
+  .component("home", homeComponent).name;
 
-export default homeModule
+export default homeModule;

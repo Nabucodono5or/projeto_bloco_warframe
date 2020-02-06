@@ -1,6 +1,9 @@
-function HomeController() {
-  let vm  = this;
-  vm.title = 'Teste de componete';
-}
+let homeController = function HomeController(homeService) {
+  let vm = this;
+  vm.title = "Teste de componete";
+  vm.servico = homeService.getData();
+};
 
-export default HomeController
+homeController.$inject = ["homeService"];
+
+export default homeController;
