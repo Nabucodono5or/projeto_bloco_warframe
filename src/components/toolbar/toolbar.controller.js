@@ -6,7 +6,7 @@ let toolbarController = function toolbarController($mdSidenav) {
   ////////////////////////////////
 
   function openLeftMenu() {
-    $mdSidenav('left').toggle();
+    $mdSidenav("left").toggle();
   }
 };
 
