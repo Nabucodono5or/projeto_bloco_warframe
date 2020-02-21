@@ -1,12 +1,12 @@
 let toolbarController = function toolbarController($mdSidenav) {
   let vm = this;
   vm.title = "toolbar componente";
-  vm.openLeftMenu = openLeftMenu;
+  vm.openRightMenu = openRightMenu;
 
   ////////////////////////////////
 
-  function openLeftMenu() {
-    $mdSidenav("left").toggle();
+  function openRightMenu() {
+    $mdSidenav("right").toggle();
   }
 };
 

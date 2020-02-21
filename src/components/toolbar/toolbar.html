@@ -1,16 +1,23 @@
 <div layout="row">
   <md-toolbar class="my-toolbar">
     <div class="md-toolbar-tools">
+      <md-button>
+        Home
+      </md-button>
+
+      <span flex></span>
+
       <md-button
         class="md-icon-button"
-        ng-click="vm.openLeftMenu()"
+        ng-click="vm.openRightMenu()"
         aria-label="Menu"
       >
         <i class="fas fa-bars"></i>
       </md-button>
     </div>
   </md-toolbar>
-  <md-sidenav md-component-id="left" class="md-sidenav-left">
+
+  <md-sidenav md-component-id="right" class="md-sidenav-right">
     Left nav
   </md-sidenav>
 </div>
