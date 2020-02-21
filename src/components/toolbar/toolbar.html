@@ -1,1 +1,12 @@
-<h2 ng-bind="vm.title"></h2>
+<div layout="row">
+  <md-sidenav md-component-id="left" class="md-sidenav-left">
+    Left nav
+  </md-sidenav>
+
+  <md-content>
+    Center content
+    <md-button ng-click="vm.openLeftMenu()">
+      Open Left Menu
+    </md-button>
+  </md-content>
+</div>
