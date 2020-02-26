@@ -6,3 +6,12 @@ i {
     background-color: rgb(10, 41, 82);
     position: fixed;
 }
+
+.lista-itens:hover {
+  background-color: rgb(182, 179, 179);
+  cursor: pointer;
+}
+
+.lista-itens-menu {
+  margin: 1.5em;
+}
