@@ -6,6 +6,7 @@ import ngMaterial from "angular-material";
 import ngMessages from "angular-messages";
 import ngAria from "angular-aria";
 import ngAnimate from "angular-animate";
+import configState from './app.config';
 
 angular
   .module("app", [
@@ -16,4 +17,5 @@ angular
     ngAnimate,
     ngMaterial
   ])
+  .config(configState)
   .component("app", appComponent).name;

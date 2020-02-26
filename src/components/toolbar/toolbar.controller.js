@@ -1,7 +1,8 @@
-let toolbarController = function toolbarController($mdSidenav) {
+let toolbarController = function toolbarController($mdSidenav, toolbarService) {
   let vm = this;
   vm.title = "toolbar componente";
   vm.openRightMenu = openRightMenu;
+  vm.categorias = toolbarService.getCategorias();
 
   ////////////////////////////////
 
@@ -10,6 +11,6 @@ let toolbarController = function toolbarController($mdSidenav) {
   }
 };
 
-toolbarController.$inject = ["$mdSidenav"];
+toolbarController.$inject = ["$mdSidenav", "toolbarService"];
 
 export default toolbarController;
