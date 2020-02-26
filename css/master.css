@@ -1,10 +1,26 @@
+/* 
+#313638
+#ef6461
+#ebf5df
+#191716 
+*/
+
+/* body {
+  background-color: #191716;
+  color: aliceblue;
+} */
+
 i {
   font-size: 1.5em;
 }
 
 .md-toolbar-tools {
-    background-color: rgb(10, 41, 82);
-    position: fixed;
+  background-color: rgb(10, 41, 82);
+  position: fixed;
+}
+
+.md-sidenav-right {
+  position: fixed;
 }
 
 .lista-itens:hover {
@@ -14,4 +30,29 @@ i {
 
 .lista-itens-menu {
   margin: 1.5em;
+}
+
+.close-button-menu {
+  align-self: flex-start;
+}
+
+.hero-image {
+  height: 60%;
+}
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.group-search {
+  margin: 10em;
+  text-align: center;
+}
+
+.title {
+  color: orange;
 }

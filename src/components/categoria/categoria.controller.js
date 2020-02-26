@@ -1,11 +1,11 @@
 let categoriaController = function categoriaController($stateParams) {
   let vm = this;
-  vm.title = "componente categoria";
   vm.$onInit = onInit;
 
   /////////////////////
 
   function onInit() {
+    vm.title = $stateParams.tipo;
     console.log($stateParams.tipo);
   }
 };
