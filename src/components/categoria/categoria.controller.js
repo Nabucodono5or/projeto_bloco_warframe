@@ -1,9 +1,11 @@
 let categoriaController = function categoriaController(
   $stateParams,
-  categoriaService
+  categoriaService,
+  filterFilter
 ) {
   let vm = this;
   vm.$onInit = onInit;
+  // vm.itens = filterFilter(vm.itens, vm.termoFiltrado);
 
   /////////////////////
 
@@ -21,6 +23,10 @@ let categoriaController = function categoriaController(
   }
 };
 
-categoriaController.$inject = ["$stateParams", "categoriaService"];
+categoriaController.$inject = [
+  "$stateParams",
+  "categoriaService",
+  "filterFilter"
+];
 
 export default categoriaController;

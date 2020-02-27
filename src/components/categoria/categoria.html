@@ -12,9 +12,8 @@
       orci at lobortis venenatis, neque magna lobortis dui, in fermentum odio
       nunc vitae nisl. Morbi maximus id turpis eu facilisis.
     </p>
-    <input type="text" />
+    <input type="text" ng-model="vm.termoFiltrado.name" />
   </div>
-
 
   <!--
     Usando cards
@@ -38,7 +37,12 @@
   -->
   <md-card>
     <md-list class="lista-itens-categoria" layout="column">
-      <md-list-item class="md-2-line" ng-repeat="item in vm.itens" ng-click="null" aria-label="{{ item.name }}">
+      <md-list-item
+        class="md-2-line"
+        ng-repeat="item in vm.itens | filter: vm.termoFiltrado"
+        ng-click="null"
+        aria-label="{{ item.name }}"
+      >
         <img
           alt="{{ item.name }}"
           ng-src="https://cdn.warframestat.us/img/{{ item.imageName }}"
