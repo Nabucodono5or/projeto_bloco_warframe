@@ -15,13 +15,18 @@
     <input type="text" />
   </div>
 
-  <!-- <md-list class="lista-itens-categoria">
-    <md-list-item class="md-2-line" ng-repeat="item in vm.itens">
-      <img alt="" ng-src="" class="md-avatar" />
+  <md-list class="lista-itens-categoria" layout="column">
+    <md-list-item class="md-2-line" ng-repeat="item in vm.itens" ng-click="null">
+      <img
+        alt="{{ item.name }}"
+        ng-src="https://cdn.warframestat.us/img/{{ item.imageName }}"
+        class="md-avatar"
+      />
       <div class="md-list-item-text" layout="column">
-        <h3></h3>
-        <p></p>
+        <h3 ng-bind="item.name"></h3>
+        <p ng-bind="item.category"></p>
       </div>
+      <md-divider></md-divider>
     </md-list-item>
-  </md-list> -->
+  </md-list>
 </div>
