@@ -38,6 +38,12 @@ i {
 
 .hero-image {
   height: 60%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../images/teste-image.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
 }
 
 .hero-text {
@@ -46,13 +52,25 @@ i {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  color: white;
+  font-size: 1.5em;
+}
+
+.div-layout-column {
+  padding: 1.5rem;
 }
 
 .group-search {
-  margin: 10em;
+  margin: 1.5em;
+  padding: 1.5em;
   text-align: center;
 }
 
+.group-search p {
+  margin: 1.5em;
+}
+
 .title {
+  font-size: 1.5em;
   color: orange;
 }
