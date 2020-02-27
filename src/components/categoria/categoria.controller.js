@@ -1,4 +1,7 @@
-let categoriaController = function categoriaController($stateParams) {
+let categoriaController = function categoriaController(
+  $stateParams,
+  categoriaService
+) {
   let vm = this;
   vm.$onInit = onInit;
 
@@ -6,10 +9,18 @@ let categoriaController = function categoriaController($stateParams) {
 
   function onInit() {
     vm.title = $stateParams.tipo;
-    console.log($stateParams.tipo);
+    activate();
+  }
+
+  function activate() {
+    return categoriaService.getItens($stateParams.tipo).then(data => {
+      vm.itens = data;
+      console.log(vm.itens);
+      return vm.itens;
+    });
   }
 };
 
-categoriaController.$inject = ["$stateParams"];
+categoriaController.$inject = ["$stateParams", "categoriaService"];
 
 export default categoriaController;
