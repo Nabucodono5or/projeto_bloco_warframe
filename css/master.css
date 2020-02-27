@@ -77,11 +77,27 @@ i {
 
 .card-itens {
   padding: 1.2em;
-  width: 100%;
 }
 
-.md-avatar {
-}
+/* .md-avatar {
+} */
 
 .image-card-left {
+  width: 20%;
+}
+
+.titulo-card {
+  font-size: 2.5em;
+  font-weight: bold;
+  align-self: flex-start;
+  letter-spacing: 0.3em;
+}
+
+.titulo-subcard {
+  font-size: 1.2em;
+  align-self: flex-start;
+}
+
+.card-do-item {
+
 }
