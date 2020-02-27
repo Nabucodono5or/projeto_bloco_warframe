@@ -79,14 +79,11 @@ i {
   padding: 1.2em;
 }
 
-/* .md-avatar {
-} */
-
 .image-card-left {
   width: 20%;
 }
 
-.titulo-card {
+/* .titulo-card {
   font-size: 2.5em;
   font-weight: bold;
   align-self: flex-start;
@@ -96,8 +93,8 @@ i {
 .titulo-subcard {
   font-size: 1.2em;
   align-self: flex-start;
-}
+} */
 
-.card-do-item {
-
+.lista-itens-categoria {
+  padding: 1em;
 }
