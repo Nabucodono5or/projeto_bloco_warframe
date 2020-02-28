@@ -12,7 +12,7 @@ function appConfig($urlRouterProvider, $stateProvider) {
   };
 
   $urlRouterProvider.otherwise("/");
-  $stateProvider.state(categoria);
+  $stateProvider.state(categoria).state(otherwise);
 }
 
 export default appConfig;
