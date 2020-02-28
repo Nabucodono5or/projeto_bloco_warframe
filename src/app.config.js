@@ -1,9 +1,9 @@
 function appConfig($urlRouterProvider, $stateProvider) {
-  let otherwise = {
-    name: "home",
-    url: "/",
-    component: "home"
-  };
+  // let otherwise = {
+  //   name: "home",
+  //   url: "/",
+  //   component: "home"
+  // };
 
   let categoria = {
     name: "categoria",

@@ -1,5 +1,5 @@
 
-function homeFactory() {
+function inicialFactory() {
   let service = {
     getData: getData
   };
@@ -13,4 +13,4 @@ function homeFactory() {
   }
 }
 
-export default homeFactory;
+export default inicialFactory;
