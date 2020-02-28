@@ -1,9 +1,9 @@
 function appConfig($urlRouterProvider, $stateProvider) {
-  // let otherwise = {
-  //   name: "home",
-  //   url: "/",
-  //   component: "home"
-  // };
+  let otherwise = {
+    name: "inicial",
+    url: "/",
+    component: "inicial"
+  };
 
   let categoria = {
     name: "categoria",
@@ -22,7 +22,7 @@ function appConfig($urlRouterProvider, $stateProvider) {
 
   $urlRouterProvider.otherwise("/");
   $stateProvider.state(categoria);
-  // $stateProvider.state(otherwise);
+  $stateProvider.state(otherwise);
 }
 
 export default appConfig;
