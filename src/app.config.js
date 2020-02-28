@@ -11,8 +11,18 @@ function appConfig($urlRouterProvider, $stateProvider) {
     component: "categoria"
   };
 
+  let profile = {
+    name: "profile",
+    url: "/profile",
+    params: {
+      item: null
+    },
+    component: "profile"
+  };
+
   $urlRouterProvider.otherwise("/");
-  $stateProvider.state(categoria).state(otherwise);
+  $stateProvider.state(categoria);
+  // $stateProvider.state(otherwise);
 }
 
 export default appConfig;
