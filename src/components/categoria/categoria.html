@@ -42,6 +42,7 @@
         ng-repeat="item in vm.itens | filter: vm.termoFiltrado"
         ng-click="null"
         aria-label="{{ item.name }}" 
+        ui-sref="profile({ item: item})"
       >
         <img
           alt="{{ item.name }}"

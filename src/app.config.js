@@ -22,6 +22,7 @@ function appConfig($urlRouterProvider, $stateProvider) {
 
   $urlRouterProvider.otherwise("/");
   $stateProvider.state(categoria);
+  $stateProvider.state(profile);
   $stateProvider.state(otherwise);
 }
 
