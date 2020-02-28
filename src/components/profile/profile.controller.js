@@ -1,6 +1,5 @@
 let profileController = function toolbarController($stateParams) {
   let vm = this;
-  vm.title = "profile componente";
   vm.item = $stateParams.item;
   vm.$onInit = onInit;
 
