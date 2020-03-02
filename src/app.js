@@ -7,6 +7,7 @@ import ngMessages from "angular-messages";
 import ngAria from "angular-aria";
 import ngAnimate from "angular-animate";
 import configState from './app.config';
+import backImageDirective from './directivas/backimage.directive';
 
 angular
   .module("app", [
@@ -18,4 +19,5 @@ angular
     ngMaterial
   ])
   .config(configState)
+  .directive("backImage",backImageDirective)
   .component("app", appComponent).name;

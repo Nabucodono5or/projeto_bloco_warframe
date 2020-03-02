@@ -1,7 +1,7 @@
 let profileController = function toolbarController($stateParams) {
   let vm = this;
   vm.item = $stateParams.item;
-  vm.$onInit = onInit;
+  vm.$onInit = onInit; 
 
   ////////////////////////////////
 
