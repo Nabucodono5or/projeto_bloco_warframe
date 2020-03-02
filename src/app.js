@@ -8,6 +8,7 @@ import ngAria from "angular-aria";
 import ngAnimate from "angular-animate";
 import configState from './app.config';
 import backImageDirective from './directivas/backimage.directive';
+import backimageGradient from './directivas/backimagegradient.directive';
 
 angular
   .module("app", [
@@ -20,4 +21,5 @@ angular
   ])
   .config(configState)
   .directive("backImage",backImageDirective)
+  .directive("backImageGradient", backimageGradient)
   .component("app", appComponent).name;

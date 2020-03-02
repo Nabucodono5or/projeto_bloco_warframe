@@ -10,6 +10,17 @@
   color: aliceblue;
 } */
 
+
+
+/* 
+font-family: 'Londrina Outline', ;
+
+font-family: 'Londrina Shadow', ;
+
+font-family: 'Anton', ;
+ */
+
+
 i {
   font-size: 1.5em;
 }
@@ -109,11 +120,27 @@ i {
   padding: 0%;
   position: relative;
   overflow: hidden;
+  /* font-family: 'Londrina Outline'; */
+  font-family: 'Londrina Shadow';
+  /* font-family: 'Anton', ; */
+  
 }
 
-.hero-image-profile {  
+.back-descricao {
+  margin: 0;
+  padding: 0;
+  height: 200%;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.hero-image-profile {
+  border-radius: 200%;
   height: 100%;
-  width: 50%;
+  width: 40%;
+  background-color: crimson;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -127,5 +154,4 @@ i {
 }
 
 .md-display-4 {
-  font-weight: bold;
 }

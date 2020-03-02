@@ -1,9 +1,14 @@
 <div class="profile-descricao md-whiteframe-2dp" layout="column">
-  <div class="hero-text-profile">
-    <h2 ng-bind="vm.item.name" class="md-display-4"></h2>
-  </div>
   <div
-    class="hero-image-profile"
-    back-image="https://cdn.warframestat.us/img/{{ vm.item.imageName }}"
-  ></div>
+    class="back-descricao"
+    back-image-gradient="https://cdn.warframestat.us/img/{{ vm.item.imageName }}"
+  >
+    <div class="hero-text-profile">
+      <h2 ng-bind="vm.item.name" class="md-display-4"></h2>
+    </div>
+    <div
+      class="hero-image-profile"
+      back-image="https://cdn.warframestat.us/img/{{ vm.item.imageName }}"
+    ></div>
+  </div>
 </div>
