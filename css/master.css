@@ -110,7 +110,7 @@ i {
   padding: 1em;
 }
 
-.profile-descricao {
+.profile-banner {
   display: flex;
   flex-direction: column;
   border-left: 2em solid rgba(44, 70, 119, 0.979);
@@ -126,7 +126,7 @@ i {
   
 }
 
-.back-descricao {
+.back-banner {
   margin: 0;
   padding: 0;
   height: 200%;
@@ -136,11 +136,11 @@ i {
   background-repeat: no-repeat;
 }
 
-.hero-image-profile {
+.image-profile {
   border-radius: 0% 70% 70% 0%;
   height: 100%;
   width: 40%;
-  /* background-color: crimson; */
+  background-color: crimson;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
