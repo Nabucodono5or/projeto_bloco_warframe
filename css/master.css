@@ -108,6 +108,7 @@ i {
   height: 60%;
   padding: 0%;
   position: relative;
+  overflow: hidden;
 }
 
 .hero-image-profile {  
