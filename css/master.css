@@ -152,5 +152,28 @@ i {
   color: white;
 }
 
+.status-card {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+}
+
+.list-status {
+  display: flex;
+  list-style: none;
+}
+
+.item-list-status {
+  margin: 2em;
+  display: flex;
+  flex-direction: column;
+}
+
+.item-list-status span {
+  align-self: center;
+}
+
+
 /* .md-display-4 {
 } */

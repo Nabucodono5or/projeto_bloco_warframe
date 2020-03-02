@@ -1,13 +1,14 @@
 let statusController = function statusController() {
-    let vm = this;
-    vm.$onInit = onInit; 
-    ////////////////////////////////
+  let vm = this;
+  vm.$onInit = onInit;
   
-    function onInit() {
-      console.log(vm.item.armor);    
+  ////////////////////////////////
+
+  function onInit() {
+    if (vm.item.category == "Warframes") {
+      vm.exibir = true;
     }
-  
-  };
-    
-  export default statusController;
-  
+  }
+};
+
+export default statusController;
