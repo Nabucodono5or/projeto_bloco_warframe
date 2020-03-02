@@ -140,7 +140,7 @@ i {
   border-radius: 0% 70% 70% 0%;
   height: 100%;
   width: 40%;
-  background-color: crimson;
+  /* background-color: crimson; */
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -152,5 +152,5 @@ i {
   color: white;
 }
 
-.md-display-4 {
-}
+/* .md-display-4 {
+} */
