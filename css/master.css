@@ -137,7 +137,7 @@ i {
 }
 
 .hero-image-profile {
-  border-radius: 200%;
+  border-radius: 0% 70% 70% 0%;
   height: 100%;
   width: 40%;
   background-color: crimson;
@@ -147,8 +147,7 @@ i {
 }
 
 .hero-text-profile {
-  text-align: center;
-  position: absolute;  
+  text-align: center;  
   margin-left: 1em;
   color: white;
 }
