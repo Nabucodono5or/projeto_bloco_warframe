@@ -5,6 +5,7 @@ import categoriaModule from "./categoria/categoria";
 import profileModule from './profile/profile';
 import statusModule from './status/status';
 import abilitiesModule from './abilities/abilities';
+import descricaoModule from './descricao/descricao';
 
 let componentModule = angular.module("components", [
   inicialModule,
@@ -12,7 +13,8 @@ let componentModule = angular.module("components", [
   categoriaModule,
   profileModule,
   statusModule,
-  abilitiesModule
+  abilitiesModule,
+  descricaoModule
 ]).name;
 
 export default componentModule;
