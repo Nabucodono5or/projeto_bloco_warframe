@@ -1,16 +1,26 @@
-<div class="card-desc">
-  <ul>
-    <li>
-      <span>Descrição: {{ vm.description }}</span>
+<div class="card-desc md-whiteframe-2dp">
+  <div class="card-desc-text">
+      <div class="box-header">
+          <h3 class="title-desc"> Descrição </h3>
+      </div>
+    <p class="" ng-bind="vm.description"></p>
+  </div>
+
+  <ul class="flex-info">
+    <md-divider></md-divider>
+
+    <li class="item-info">
+      <span class="propriedade-info">Tempo para construção: </span> <span>{{ vm.buildTime }}</span>
     </li>
-    <li>
-      <span>Tempo para construção: {{ vm.buildTime }}</span>
+    <md-divider></md-divider>
+
+    <li class="item-info">
+      <span class="propriedade-info">Custo de construção: </span>  <span>{{ vm.buildPrice }} créditos</span>
     </li>
-    <li>
-      <span>Custo de construção: {{ vm.buildPrice }} créditos</span>
-    </li>
-    <li>
-      <span>Maestria: {{ vm.masteryReq }}</span>
+    <md-divider></md-divider>
+
+    <li class="item-info">
+      <span class="propriedade-info">Maestria: </span> <span>{{ vm.masteryReq }}</span>
     </li>
   </ul>
 </div>

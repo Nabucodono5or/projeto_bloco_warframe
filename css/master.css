@@ -200,6 +200,39 @@ i {
 }
 
 .card-abilities {
+  min-width: 160px;
   width: 50%;
   margin: 1em;
+}
+
+.header-passiva {
+  margin-left: 1rem;
+  font-size: 0.9em;
+}
+
+.card-desc {
+  width: 40%;
+  padding: 1em;
+  margin: 1em;
+  min-width: 190px;
+}
+
+.flex-info {
+  margin-left: 0em;
+}
+
+.item-info {
+  list-style: none;
+  display: flex;
+  margin: 1em 0em;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.propriedade-info {
+  min-width: 6em;
+  width: 35%;
+  background-color: lightslategray;
+  padding: 0.5em 1em;
+  margin-right: 1em;
 }

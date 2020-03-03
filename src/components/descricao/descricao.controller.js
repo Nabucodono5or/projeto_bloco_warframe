@@ -5,7 +5,7 @@ let descricaoController = function DescricaoController() {
     ////////////////////////////////
   
     function onInit() {
-        vm.description = vm.item.description;
+        vm.description = vm.item.description || "Desconhecido";
         vm.buildTime = vm.item.buildTime || 0;
         vm.buildPrice = vm.item.buildPrice || 0;
         vm.masteryReq = vm.item.masteryReq || 0;
