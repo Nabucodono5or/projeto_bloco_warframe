@@ -1,0 +1,45 @@
+<div class="damage-container" ng-show="vm.exibir">
+  <div class="box-weapon box-damage md-whiteframe-2dp">
+    <span class="title-damage">Damage</span>
+    <span class="number-damage" ng-bind="vm.item.damage"></span>
+    <span class="number-info">{{ vm.criticalChance }}% critical damage</span>
+  </div>
+
+  <div class="box-weapon box-total-damage md-whiteframe-2dp">
+    <span class="title-damage">Total Damage</span>
+    <span class="number-damage" ng-bind="vm.item.totalDamage"></span>
+    <span class="number-info">{{ vm.criticalMultiplier }}x critical multiplier</span>
+</div>
+
+  <div class="box-weapon box-accuracy md-whiteframe-2dp">
+    <span class="title-damage">Accuracy</span>
+    <span class="number-damage" ng-bind="vm.accuracy"></span>
+    <span class="number-info">damage per hit {{ vm.damagePerHit }}</span>
+</div>
+
+  <div class="box-weapon box-ammo md-whiteframe-2dp">
+    <span class="title-damage">Ammo</span>
+    <span class="number-damage" ng-bind="vm.ammo"></span>
+  </div>
+
+  <div class="box-weapon box-reload md-whiteframe-2dp">
+    <span class="title-damage">Reload Time</span>
+    <span class="number-damage" ng-bind="vm.reloadTime"></span>
+    <span class="number-info">seconds</span>
+</div>
+
+  <div class="box-weapon box-spin-attack md-whiteframe-2dp">
+    <span class="title-damage">Spin Attack</span>
+    <span class="number-damage" ng-bind="vm.item.spinAttack"></span>
+  </div>
+
+  <div class="box-weapon box-wall-attack md-whiteframe-2dp">
+    <span class="title-damage">Wall Attack</span>
+    <span class="number-damage" ng-bind="vm.item.wallAttack"></span>
+  </div>
+
+  <div class="box-weapon box-leap-attack md-whiteframe-2dp">
+    <span class="title-damage">Leap Attack</span>
+    <span class="number-damage" ng-bind="vm.item.leapAttack"></span>
+  </div>
+</div>

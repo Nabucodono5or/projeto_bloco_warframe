@@ -236,3 +236,42 @@ i {
   padding: 0.5em 1em;
   margin-right: 1em;
 }
+
+.damage-container{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 1em;
+}
+
+.box-weapon {
+  border-radius: 2%;
+  width: 15%;
+  min-width: 100px;
+  margin: 1em;
+  padding: 1em 1em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: lightseagreen;
+}
+
+.title-damage {
+  text-align: center;
+  color: white;
+  font-size: 0.9em;
+}
+
+.number-damage {
+  margin: 0.5em 0em;
+  text-align: center;
+  color: white;
+  font-size: 1.5em;
+}
+
+.number-info {
+  text-align: center;
+  color: white;
+  font-size: 0.9em;
+}

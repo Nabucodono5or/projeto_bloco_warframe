@@ -6,6 +6,7 @@ import profileModule from './profile/profile';
 import statusModule from './status/status';
 import abilitiesModule from './abilities/abilities';
 import descricaoModule from './descricao/descricao';
+import damageModule from './damage/damage';
 
 let componentModule = angular.module("components", [
   inicialModule,
@@ -14,7 +15,8 @@ let componentModule = angular.module("components", [
   profileModule,
   statusModule,
   abilitiesModule,
-  descricaoModule
+  descricaoModule,
+  damageModule
 ]).name;
 
 export default componentModule;
