@@ -15,17 +15,54 @@
     <input type="text" ng-model="vm.termoFiltrado.name" />
   </div>
 
+<!-- novo card com flex correto-->
+
+  <!-- <md-button
+    class="wrap-card-item"
+    ng-repeat="item in vm.itens"
+    ng-click="null"
+    aria-label="{{ item.name }}"
+  >
+    <div class="card-item" md-truncate>
+      <div class="card-image">
+        <img
+          alt="{{ item.name }}"
+          ng-src="https://cdn.warframestat.us/img/{{ item.imageName }}"
+          class="image-card-left"
+        />
+      </div>
+
+      <div
+        class="image-card-right"
+        back-image="https://cdn.warframestat.us/img/{{ vm.item.imageName }}"
+      >
+        <div class="card-title-personal">
+          <span class="md-headline titulo-card" ng-bind="item.name"></span>
+          <span
+            class="md-subline titulo-subcard"
+            ng-bind="item.category"
+          ></span>
+        </div>
+      </div>
+    </div>
+  </md-button> -->
+
   <!--
     Usando cards
   -->
-  <!-- <md-button class="card-do-item" ng-repeat="item in vm.itens" ng-click="null" aria-label="{{ item.name }}">
+  <!-- <md-button
+    class="card-do-item"
+    ng-repeat="item in vm.itens"
+    ng-click="null"
+    aria-label="{{ item.name }}"
+  >
     <md-card layout="row" md-truncate>
       <img
         alt="{{ item.name }}"
         ng-src="https://cdn.warframestat.us/img/{{ item.imageName }}"
         class="image-card-left"
       />
-      <md-card-title layout="column"> 
+      <md-card-title layout="column">
         <span class="md-headline titulo-card" ng-bind="item.name"></span>
         <span class="md-subline titulo-subcard" ng-bind="item.category"></span>
       </md-card-title>
@@ -57,4 +94,5 @@
       </md-list-item>
     </md-list>
   </md-card>
+</div>
 </div>

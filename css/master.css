@@ -94,17 +94,46 @@ i {
   width: 20%;
 }
 
-/* .titulo-card {
+/* +++++++++++++++++++++++++++++++++++++ */
+/* classes doo carad */
+.wrap-card-item {
+  margin: 2em;
+}
+
+.card-item {
+  border-radius: 10%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.card-image {
+  
+}
+
+.image-card-left {
+  width: 60%;
+}
+
+.image-card-right {
+}
+
+.card-title-personal {
+
+}
+
+.titulo-card {
   font-size: 2.5em;
   font-weight: bold;
-  align-self: flex-start;
   letter-spacing: 0.3em;
 }
 
 .titulo-subcard {
   font-size: 1.2em;
-  align-self: flex-start;
-} */
+}
+
+/* +++++++++++++++++++++++++++++++++++++ */
 
 .lista-itens-categoria {
   padding: 1em;
@@ -154,18 +183,19 @@ i {
 
 .status-card {
   width: 90%;
-  margin: auto;
-  display: flex;
-  flex-direction: row;
+  margin: 1em auto;
+  padding: 0.6em;
 }
 
 .list-status {
   display: flex;
   list-style: none;
+  justify-content: space-around;
 }
 
 .item-list-status {
-  margin: 2em;
+  background-color: crimson;
+  padding: 1em 0.5em;
   display: flex;
   flex-direction: column;
 }
