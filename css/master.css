@@ -198,3 +198,8 @@ i {
   display: flex;
   flex-direction: column;
 }
+
+.card-abilities {
+  width: 50%;
+  margin: 1em;
+}

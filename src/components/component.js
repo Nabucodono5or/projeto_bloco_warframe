@@ -4,13 +4,15 @@ import toolbarModule from "./toolbar/toolbar";
 import categoriaModule from "./categoria/categoria";
 import profileModule from './profile/profile';
 import statusModule from './status/status';
+import abilitiesModule from './abilities/abilities';
 
 let componentModule = angular.module("components", [
   inicialModule,
   toolbarModule,
   categoriaModule,
   profileModule,
-  statusModule
+  statusModule,
+  abilitiesModule
 ]).name;
 
 export default componentModule;

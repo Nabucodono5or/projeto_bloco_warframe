@@ -1,0 +1,15 @@
+<div class="card-abilities md-whiteframe-2dp" ng-show="vm.exibir">
+  <md-list flex>
+    <md-subheader>
+      Habilidades
+    </md-subheader>
+    <md-divider></md-divider>
+    
+    <md-list-item class="md-3-line md-long-text" ng-repeat="ability in vm.item.abilities">
+      <div class="md-list-item-text">
+        <h3 ng-bind="ability.name"></h3>
+        <p class="" ng-bind="ability.description"></p>
+      </div>
+    </md-list-item>
+  </md-list>
+</div>
