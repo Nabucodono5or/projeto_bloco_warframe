@@ -151,8 +151,7 @@ i {
   overflow: hidden;
   /* font-family: 'Londrina Outline'; */
   font-family: 'Londrina Shadow';
-  /* font-family: 'Anton', ; */
-  
+  /* font-family: 'Anton', ; */  
 }
 
 .back-banner {
@@ -182,28 +181,20 @@ i {
 }
 
 .status-card {
+  min-width: 80%;
   width: 90%;
   margin: 1em auto;
-  padding: 0.6em;
-}
-
-.list-status {
+  padding: 1em;
   display: flex;
-  list-style: none;
+  flex-wrap: wrap;
   justify-content: space-around;
 }
 
 .item-list-status {
   background-color: crimson;
   padding: 1em 0.5em;
+  text-align: center;
+  margin: 0.5em;
   display: flex;
   flex-direction: column;
 }
-
-.item-list-status span {
-  align-self: center;
-}
-
-
-/* .md-display-4 {
-} */
