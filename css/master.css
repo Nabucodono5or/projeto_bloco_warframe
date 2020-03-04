@@ -275,3 +275,29 @@ i {
   color: white;
   font-size: 0.9em;
 }
+
+.circle-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  align-content: space-between;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  padding: 1em;
+  margin: 1em;
+  /* background-color: crimson; */
+}
+
+.title-circle-box {
+  text-align: center;
+  color: white;
+  font-size: 0.9em;
+}
+
+.text-circle-box {
+  text-align: center;
+  font-size: 1.3em;
+  color: white;
+}
