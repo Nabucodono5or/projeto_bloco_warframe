@@ -9,6 +9,7 @@ let descricaoController = function DescricaoController() {
         vm.buildTime = vm.item.buildTime || 0;
         vm.buildPrice = vm.item.buildPrice || 0;
         vm.masteryReq = vm.item.masteryReq || 0;
+        vm.type = vm.item.type || "Desconhecido";
     }
   };
   
