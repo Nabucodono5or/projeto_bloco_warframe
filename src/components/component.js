@@ -8,6 +8,7 @@ import abilitiesModule from "./abilities/abilities";
 import descricaoModule from "./descricao/descricao";
 import damageModule from "./damage/damage";
 import noiseModule from "./noise/noise";
+import polarityModule from "./polarity/polarity";
 
 let componentModule = angular.module("components", [
   inicialModule,
@@ -18,7 +19,8 @@ let componentModule = angular.module("components", [
   abilitiesModule,
   descricaoModule,
   damageModule,
-  noiseModule
+  noiseModule,
+  polarityModule
 ]).name;
 
 export default componentModule;

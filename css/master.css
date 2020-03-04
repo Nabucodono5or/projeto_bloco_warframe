@@ -287,7 +287,6 @@ i {
   border-radius: 50%;
   padding: 1em;
   margin: 1em;
-  /* background-color: crimson; */
 }
 
 .title-circle-box {
@@ -300,4 +299,12 @@ i {
   text-align: center;
   font-size: 1.3em;
   color: white;
+}
+
+.circle-polarity {
+  background-color: rgb(12, 60, 122);  
+}
+
+.image-polarity {
+  width: 30%;
 }
