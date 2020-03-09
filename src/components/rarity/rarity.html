@@ -1,6 +1,7 @@
 <div
   class="rarity-box md-whiteframe-2dp"
   back-color back="{{ vm.rarities[vm.item.rarity].back }}" color="{{ vm.rarities[vm.item.rarity].color }}"
+  ng-show="vm.exibir"
 >
   <span class="rarity-text" ng-bind="vm.item.rarity"></span>
   <span>Limites de fusão</span>
