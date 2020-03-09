@@ -1,10 +1,10 @@
 function rarityFactory() {
   let rarities = {
-    Common: { back : '#BE5504', color: 'white' },
-    Uncommon: { back : '#FADASE', color: 'black' },
-    Rare: { back : 'Royal', color: 'black' },
-    Legendary: { back : '#A0B2C6', color: 'black' },
-    Riven: { back : '#F81894', color: 'white' }
+    'Common': { back: "rgb(255, 51, 51)", color: "white" },
+    'Uncommon': { back: "rgb(255, 51, 51)", color: "white" },
+    'Rare': { back: "rgb(255, 51, 51)", color: "white" },
+    'Legendary': { back: "rgb(255, 51, 51)", color: "white" },
+    'Riven': { back: "rgb(255, 51, 51)", color: "white" }
   };
 
   let service = {

@@ -1,4 +1,4 @@
-let rarityController = function rarityController(rarityService) {
+let rarityController = function RarityController(rarityService) {
   let vm = this;
   vm.$onInit = onInit;
   vm.rarities = rarityService.getRarities();

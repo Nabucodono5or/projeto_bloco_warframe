@@ -9,6 +9,7 @@ import ngAnimate from "angular-animate";
 import configState from './app.config';
 import backImageDirective from './directivas/backimage.directive';
 import backimageGradient from './directivas/backimagegradient.directive';
+import backcolor from './directivas/backcolor.directive';
 
 angular
   .module("app", [
@@ -20,6 +21,7 @@ angular
     ngMaterial
   ])
   .config(configState)
+  .directive("backColor",backcolor)
   .directive("backImage",backImageDirective)
   .directive("backImageGradient", backimageGradient)
   .component("app", appComponent).name;
