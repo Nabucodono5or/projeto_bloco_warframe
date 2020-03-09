@@ -10,6 +10,7 @@ import damageModule from "./damage/damage";
 import noiseModule from "./noise/noise";
 import polarityModule from "./polarity/polarity";
 import rarityModule from './rarity/rarity';
+import searchModule from './search/search';
 
 let componentModule = angular.module("components", [
   inicialModule,
@@ -22,7 +23,8 @@ let componentModule = angular.module("components", [
   damageModule,
   noiseModule,
   polarityModule,
-  rarityModule
+  rarityModule,
+  searchModule
 ]).name;
 
 export default componentModule;
