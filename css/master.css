@@ -310,15 +310,20 @@ i {
 }
 
 .rarity-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   width: 30%;
-  height: 20%;
+  height: 18%;
   margin: 1em;
 }
 
 .rarity-text {
-
+  font-size: 3em;
+  font-weight: bold;
 }
 
 .fusion-limit {
-  
+  font-size: 1.5em;
 }
