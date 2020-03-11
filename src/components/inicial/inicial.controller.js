@@ -1,6 +1,6 @@
 let inicialController = function InicialController() {
   let vm = this;
-  vm.title = "home componente";
+  vm.title = "Waframe centro de estatistica";
 
   ////////////////////////////////
 

@@ -10,8 +10,6 @@
   color: aliceblue;
 } */
 
-
-
 /* 
 font-family: 'Londrina Outline', ;
 
@@ -19,7 +17,6 @@ font-family: 'Londrina Shadow', ;
 
 font-family: 'Anton', ;
  */
-
 
 i {
   font-size: 1.5em;
@@ -109,7 +106,6 @@ i {
 }
 
 .card-image {
-  
 }
 
 .image-card-left {
@@ -120,7 +116,6 @@ i {
 }
 
 .card-title-personal {
-
 }
 
 .titulo-card {
@@ -150,8 +145,8 @@ i {
   position: relative;
   overflow: hidden;
   /* font-family: 'Londrina Outline'; */
-  font-family: 'Londrina Shadow';
-  /* font-family: 'Anton', ; */  
+  font-family: "Londrina Shadow";
+  /* font-family: 'Anton', ; */
 }
 
 .back-banner {
@@ -175,7 +170,7 @@ i {
 }
 
 .hero-text-profile {
-  text-align: center;  
+  text-align: center;
   margin-left: 1em;
   color: white;
 }
@@ -237,7 +232,7 @@ i {
   margin-right: 1em;
 }
 
-.damage-container{
+.damage-container {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
@@ -302,7 +297,7 @@ i {
 }
 
 .circle-polarity {
-  background-color: rgb(12, 60, 122);  
+  background-color: rgb(12, 60, 122);
 }
 
 .image-polarity {
@@ -328,7 +323,7 @@ i {
   font-size: 1.5em;
 }
 
-input[type=text] {
+input[type="text"] {
   width: 20%;
   min-width: 100px;
   box-sizing: border-box;
@@ -341,12 +336,12 @@ input[type=text] {
   transition: width 0.4s ease-in-out;
 }
 
-input[type=text]:focus {
+input[type="text"]:focus {
   background-color: white;
   width: 100%;
 }
 
-input[type=text]:hover {
+input[type="text"]:hover {
   background-color: white;
 }
 
@@ -372,4 +367,61 @@ input[type=text]:hover {
 .title-aviso {
   color: white;
   font-size: 2em;
+}
+
+.hero-image-inicial {
+  height: 90%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../images/Warframe_image1600w-min.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.categories-box {
+  padding: 3em;
+}
+
+.title-categoiries-box {
+  font-size: 5em;
+  font-weight: bold;
+  text-align: center;
+  margin: 1em;
+}
+
+.text-categories-box {
+  font-size: 2em;
+  text-align: center;
+  margin-bottom: 5em;
+}
+
+.card-selection {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 1em;
+}
+
+.card-categories {
+  min-width: 100px;
+  max-width: 170px;
+  padding: 1em;
+  display: flex;
+  flex-direction: column;
+  margin-top: 3em;  
+}
+
+.card-categories p{
+  text-align: center;
+}
+
+.card-categories span{
+  text-align: center;
+  align-self: center;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+.about-box {
 }
