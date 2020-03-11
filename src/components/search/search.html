@@ -3,6 +3,11 @@
     <span class="title-search">Itens encontrados...</span>
   </div>
 
+  <div class="aviso-box" ng-show="vm.exibir">
+    <span class="title-aviso"
+      ><i class="fas fa-exclamation-triangle"></i> Itens não encontrados</span
+    >
+  </div>
   <md-card>
     <md-list class="lista-itens-categoria" layout="column">
       <md-list-item

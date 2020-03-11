@@ -5,13 +5,13 @@ let searchController = function SearchController(
 ) {
   let vm = this;
   vm.$onInit = onInit;
+  vm.exibir = false;
 
   /////////////////////
 
   function onInit() {
     vm.termo = $stateParams.termo;
     console.log(vm.termo);
-    
     activate();
   }
 
@@ -19,9 +19,15 @@ let searchController = function SearchController(
     return searchService.getItens().then(data => {
       vm.itens = data;
       vm.filteredItens = filterFilter(vm.itens, { name: vm.termo });
-      console.log(vm.filteredItens);
+      avaliarResultadoDeBusca(vm.filteredItens);
       return vm.filteredItens;
     });
+  }
+
+  function avaliarResultadoDeBusca(lista) {
+    if (lista.length == 0) {
+      vm.exibir = true;
+    }
   }
 };
 

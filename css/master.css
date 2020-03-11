@@ -359,3 +359,17 @@ input[type=text]:hover {
   font-size: 3em;
   font-weight: bold;
 }
+
+.aviso-box {
+  display: flex;
+  padding: 3em;
+  margin: 1em;
+  border: tomato solid;
+  border-radius: 0.5em;
+  background-color: tomato;
+}
+
+.title-aviso {
+  color: white;
+  font-size: 2em;
+}
