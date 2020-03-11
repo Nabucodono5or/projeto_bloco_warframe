@@ -9,9 +9,10 @@ function toolbarDirective($state) {
   ////////////////////
 
   function link(scope, element, attr) {
-    element.on("keypress", event => {
+    element.on("keydown keypress", event => {
       if (event.which == 13) {
         $state.go("search", { termo: attr.toolbarDirective });
+        event.preventDefault();
       }
     });
   }

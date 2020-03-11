@@ -5,7 +5,7 @@ import toolbarDirective from './toolbar.directive';
 import uiRouter from "@uirouter/angularjs";
 
 let toolbarModule = angular
-  .module("toolbarModule", [uiRouter])
+  .module("toolbarModule", [])
   .directive("toolbarDirective", ["$state", toolbarDirective])
   .factory("toolbarService", toolbarFactory)
   .component("toolbar", toolbarComponent).name;
