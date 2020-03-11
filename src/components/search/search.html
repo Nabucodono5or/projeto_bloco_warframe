@@ -1,1 +1,26 @@
 <h3 ng-bind="vm.termo"></h3>
+
+<div class="div-layout-column" layout="column">
+    <md-card>
+        <md-list class="lista-itens-categoria" layout="column">
+          <md-list-item
+            class="md-2-line"
+            ng-repeat="item in vm.filteredItens"
+            ng-click="null"
+            aria-label="{{ item.name }}" 
+            ui-sref="profile({ item: item})"
+          >
+            <img
+              alt="{{ item.name }}"
+              ng-src="https://cdn.warframestat.us/img/{{ item.imageName }}"
+              class="md-avatar"
+            />
+            <div class="md-list-item-text" layout="column">
+              <h3 class="titulo-lista" ng-bind="item.name"></h3>
+              <p class="subtitulo-lista" ng-bind="item.category"></p>
+            </div>
+            <md-divider></md-divider>
+          </md-list-item>
+        </md-list>
+      </md-card>    
+</div>

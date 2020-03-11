@@ -12,7 +12,7 @@ let searchController = function SearchController(
     vm.termo = $stateParams.termo;
     console.log(vm.termo);
     
-    // activate();
+    activate();
   }
 
   function activate() {
