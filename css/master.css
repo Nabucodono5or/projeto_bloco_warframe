@@ -349,3 +349,13 @@ input[type=text]:focus {
 input[type=text]:hover {
   background-color: white;
 }
+
+.title-box-search {
+  display: flex;
+  padding: 2em;
+}
+
+.title-search {
+  font-size: 3em;
+  font-weight: bold;
+}
