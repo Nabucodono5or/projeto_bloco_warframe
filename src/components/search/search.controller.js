@@ -10,7 +10,9 @@ let searchController = function SearchController(
 
   function onInit() {
     vm.termo = $stateParams.termo;
-    activate();
+    console.log(vm.termo);
+    
+    // activate();
   }
 
   function activate() {

@@ -1,4 +1,4 @@
-function toolbarDirective() {
+function toolbarDirective($state) {
   let directive = {
     restrict: "EA",
     link: link
@@ -9,7 +9,11 @@ function toolbarDirective() {
   ////////////////////
 
   function link(scope, element, attr) {
-    element.on("nameEvent", () => {});
+    element.on("keypress", event => {
+      if (event.which == 13) {
+        $state.go("search", { termo: attr.toolbarDirective });
+      }
+    });
   }
 }
 
