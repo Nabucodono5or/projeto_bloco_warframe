@@ -11,6 +11,7 @@ import backImageDirective from './directivas/backimage.directive';
 import backimageGradient from './directivas/backimagegradient.directive';
 import backcolor from './directivas/backcolor.directive';
 import d3Module from './d3/d3';
+import d3Lines from './directivas/d3.directive';
 
 angular
   .module("app", [
@@ -26,4 +27,5 @@ angular
   .directive("backColor",backcolor)
   .directive("backImage",backImageDirective)
   .directive("backImageGradient", backimageGradient)
+  .directive("d3Lines", ["d3", d3Lines])
   .component("app", appComponent).name;
