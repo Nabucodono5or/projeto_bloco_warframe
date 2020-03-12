@@ -10,6 +10,7 @@ import configState from './app.config';
 import backImageDirective from './directivas/backimage.directive';
 import backimageGradient from './directivas/backimagegradient.directive';
 import backcolor from './directivas/backcolor.directive';
+import d3Module from './d3/d3';
 
 angular
   .module("app", [
@@ -18,7 +19,8 @@ angular
     ngMessages,
     ngAria,
     ngAnimate,
-    ngMaterial
+    ngMaterial,
+    d3Module
   ])
   .config(configState)
   .directive("backColor",backcolor)
