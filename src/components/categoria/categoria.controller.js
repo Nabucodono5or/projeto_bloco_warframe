@@ -9,6 +9,7 @@ let categoriaController = function categoriaController(
 
   function onInit() {
     vm.title = $stateParams.tipo;
+    vm.title = vm.title.toUpperCase();
     activate();
   }
 
