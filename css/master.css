@@ -18,6 +18,12 @@ font-family: 'Londrina Shadow', ;
 font-family: 'Anton', ;
  */
 
+
+/*
+font-family: 'Raleway', sans-serif;
+font-family: 'Fjalla One', sans-serif;
+*/
+
 i {
   font-size: 1.5em;
 }
@@ -384,7 +390,7 @@ input[type="text"]:hover {
 }
 
 .title-categoiries-box {
-  font-size: 5em;
+  font-size: 4em;
   font-weight: bold;
   text-align: center;
   margin: 1em;
@@ -424,4 +430,52 @@ input[type="text"]:hover {
   font-weight: bold;
 }
 .about-box {
+  display: flex;
+  flex-direction: column;
+  padding: 2em;
+  margin: 0em;
+  width: auto;
+  background-color: black;
+  color: white;
+}
+
+.title-about {
+  color: white;
+  font-size: 4em;
+  margin-bottom: 1em;
+}
+
+.inicial-text-hero{
+  color: #FFFBFE;
+  font-size: 1.7em;
+  font-family: 'Raleway', sans-serif;
+}
+
+.subheader-about {
+  font-weight: bold;
+}
+
+.about-box-text p{
+  text-align: justify;
+  line-height: 1.4em;
+}
+
+.about-aplication-box {
+  display: flex;
+  flex-direction: column;
+  padding: 2em;
+  margin: 0em;
+  width: auto;
+  background-color: white;
+  color: black; 
+}
+
+.header-sobre {
+  font-weight: bold;
+  font-size: 4em;
+  margin: 1em 0em;
+}
+
+.about-aplication-box p{
+  line-height: 1.4em;
 }
