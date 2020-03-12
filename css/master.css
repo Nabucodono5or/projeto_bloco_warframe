@@ -257,7 +257,7 @@ i {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: lightseagreen;
+  background-color: crimson;
 }
 
 .title-damage {
@@ -530,21 +530,25 @@ input[type="text"]:hover {
 
 .drops-list-text {
   width: 100%;
-  display: table;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .title-drops-list{
-  display: table-cell;
+  flex: 1;
   font-size: 0.8em;
-  width: 30%;
 }
 
 .barra-drops-list {
-  display: table-cell;
-  width: 80%;
+  flex: 2;
   padding: 1.5em;
 }
 
+svg {
+  background-color: #0075A2;
+  border-radius: 0.5em;
+}
+
 .numero-drops-list {
-  display: table-cell;
+  padding: 1em;
 }

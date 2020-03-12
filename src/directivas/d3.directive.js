@@ -19,22 +19,22 @@ function d3Lines(d3) {
     let svg = d3
       .select(element[0])
       .append("svg")
-      .style("height", "60px")
-      .style("width", "200px");
+      .style("height", "10px")
+      .style("width", "250px");
 
     svg
       .append("rect")
       .attr("class", "bar-drop")
-      .attr("height", 30)
+      .attr("height", 10)
       .attr("width", xScale(incomingData))
-      .style("fill", "blue");
+      .style("fill", "#ADF5FF");
 
     function criandoXScale() {
       var maximo = 1;
       var yScale = d3
         .scaleLinear()
         .domain([0, maximo])
-        .range([0, 200]);
+        .range([0, 250]);
 
       return yScale;
     }
