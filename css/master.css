@@ -419,6 +419,9 @@ input[type="text"]:hover {
   display: flex;
   flex-direction: column;
   margin-top: 3em;
+  background-color: crimson;
+  color: white;
+  cursor: pointer;
 }
 
 .card-categories p {
