@@ -2,6 +2,7 @@ let dropsController = function DropsController() {
   let vm = this;
   vm.$onInit = onInit;
   vm.taxCalculator = taxCalculator;
+  vm.exibir = false;
 
   ////////////////////////////////
 
@@ -9,8 +10,6 @@ let dropsController = function DropsController() {
     if (vm.componentes) {
       vm.exibir = true;
     }
-
-    console.log(vm.componentes);
   }
 
   function taxCalculator(taxa) {

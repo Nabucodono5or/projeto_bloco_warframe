@@ -12,7 +12,8 @@ import polarityModule from "./polarity/polarity";
 import rarityModule from "./rarity/rarity";
 import searchModule from "./search/search";
 import footerModule from "./footer/footer";
-import dropsModule from "./drops/drops"
+import dropsModule from "./drops/drops";
+import dropmodModule from "./dropmod/dropmod";
 
 let componentModule = angular.module("components", [
   inicialModule,
@@ -28,7 +29,8 @@ let componentModule = angular.module("components", [
   rarityModule,
   searchModule,
   footerModule,
-  dropsModule
+  dropsModule,
+  dropmodModule
 ]).name;
 
 export default componentModule;
