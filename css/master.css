@@ -515,3 +515,36 @@ input[type="text"]:hover {
 .right-box-footer h3{
   text-align: center;
 }
+
+.drops-container{
+  padding: 1em;
+  display: flex;
+  flex-direction: column;
+}
+
+.drops-box{
+  padding: 1em;
+  max-width: 100%;
+  margin: 1em;
+}
+
+.drops-list-text {
+  width: 100%;
+  display: table;
+}
+
+.title-drops-list{
+  display: table-cell;
+  font-size: 0.8em;
+  width: 30%;
+}
+
+.barra-drops-list {
+  display: table-cell;
+  width: 80%;
+  padding: 1.5em;
+}
+
+.numero-drops-list {
+  display: table-cell;
+}
