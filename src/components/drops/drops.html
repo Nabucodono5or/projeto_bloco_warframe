@@ -24,7 +24,7 @@
           </div>
           <div class="barra-drops-list" d3-lines valor="drop.chance"></div>
           <div class="numero-drops-list">
-            <span>numero de %</span>
+            <span ng-bind="vm.taxCalculator(drop.chance)"></span>
           </div>
         </div>
         <md-divider></md-divider>
