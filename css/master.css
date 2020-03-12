@@ -18,7 +18,6 @@ font-family: 'Londrina Shadow', ;
 font-family: 'Anton', ;
  */
 
-
 /*
 font-family: 'Raleway', sans-serif;
 font-family: 'Fjalla One', sans-serif;
@@ -192,7 +191,8 @@ i {
 }
 
 .item-list-status {
-  background-color: crimson;
+  /* background-color: crimson; */
+  color: crimson;
   padding: 1em 0.5em;
   text-align: center;
   margin: 0.5em;
@@ -233,7 +233,9 @@ i {
 .propriedade-info {
   min-width: 6em;
   width: 35%;
-  background-color: lightslategray;
+  /* background-color: lightslategray; */
+  background-color: crimson;
+  color: white;
   padding: 0.5em 1em;
   margin-right: 1em;
 }
@@ -416,14 +418,14 @@ input[type="text"]:hover {
   padding: 1em;
   display: flex;
   flex-direction: column;
-  margin-top: 3em;  
+  margin-top: 3em;
 }
 
-.card-categories p{
+.card-categories p {
   text-align: center;
 }
 
-.card-categories span{
+.card-categories span {
   text-align: center;
   align-self: center;
   font-size: 1.5em;
@@ -445,17 +447,17 @@ input[type="text"]:hover {
   margin-bottom: 1em;
 }
 
-.inicial-text-hero{
-  color: #FFFBFE;
+.inicial-text-hero {
+  color: #fffbfe;
   font-size: 1.7em;
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
 }
 
 .subheader-about {
   font-weight: bold;
 }
 
-.about-box-text p{
+.about-box-text p {
   text-align: justify;
   line-height: 1.4em;
 }
@@ -467,7 +469,7 @@ input[type="text"]:hover {
   margin: 0em;
   width: auto;
   background-color: white;
-  color: black; 
+  color: black;
 }
 
 .header-sobre {
@@ -476,6 +478,6 @@ input[type="text"]:hover {
   margin: 1em 0em;
 }
 
-.about-aplication-box p{
+.about-aplication-box p {
   line-height: 1.4em;
 }
