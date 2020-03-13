@@ -6,7 +6,7 @@ let dropmodController = function DropmodController() {
     ////////////////////////////////
   
     function onInit() {
-      if (vm.item.category == "Mods") {
+      if ((vm.item.category == "Mods") && (vm.item.drops.length > 0)) {
         vm.exibir = true;
       }
     }
