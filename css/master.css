@@ -201,8 +201,7 @@ i {
 }
 
 .card-abilities {
-  min-width: 160px;
-  width: 50%;
+  min-width: 200px;
   margin: 1em;
 }
 
@@ -212,10 +211,9 @@ i {
 }
 
 .card-desc {
-  width: 40%;
   padding: 1em;
   margin: 1em;
-  min-width: 190px;
+  min-width: 350px;
 }
 
 .flex-info {
@@ -289,7 +287,7 @@ i {
   width: 100px;
   border-radius: 50%;
   padding: 1em;
-  margin: 1em;
+  margin: 1em auto;
 }
 
 .title-circle-box {
@@ -317,9 +315,11 @@ i {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 30%;
-  height: 18%;
+  min-width: 300px;
+  min-height: 100px;
+  max-width: 500px;
   margin: 1em;
+  padding: 1em;
 }
 
 .rarity-text {
@@ -434,6 +434,7 @@ input[type="text"]:hover {
   font-size: 1.5em;
   font-weight: bold;
 }
+
 .about-box {
   display: flex;
   flex-direction: column;
@@ -486,6 +487,7 @@ input[type="text"]:hover {
 }
 
 .footer-box {
+  margin-top: 6em;
   background-color: rgb(10, 41, 82);
   padding: 2.2em;
   display: flex;
@@ -555,4 +557,21 @@ svg {
 
 .dropmod-container {
   margin: 1em;
+}
+
+.profile-components-box {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: baseline;
+}
+
+.profile-components-left {
+  flex: 1;
+}
+
+.profile-components-right {
+  flex: 1;
+  justify-content: center;
+  align-self: center;
 }
